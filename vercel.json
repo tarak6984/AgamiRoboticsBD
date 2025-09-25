@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "agami-robotics-bd",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://agami-robotics-bd.vercel.app"
+  },
+  "functions": {
+    "app/layout.tsx": {
+      "includeFiles": "public/**"
+    }
+  }
+}
