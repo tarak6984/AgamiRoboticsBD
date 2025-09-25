@@ -7,8 +7,8 @@ const StructuredData = () => {
     "name": "Agami Robotics BD",
     "alternateName": "আগামী রোবটিক্স বিডি",
     "description": "Empowering Bangladeshi students with affordable robotics kits and Bengali tutorials for hands-on STEM education.",
-    "url": "https://agamiroboticsbd.com",
-    "logo": "https://agamiroboticsbd.com/logo.png",
+    "url": "https://agami-robotics-bd.vercel.app",
+    "logo": "https://agami-robotics-bd.vercel.app/icon",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+880-1XXX-XXXXXX",
@@ -64,12 +64,12 @@ const StructuredData = () => {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Agami Robotics BD",
-    "url": "https://agamiroboticsbd.com",
+    "url": "https://agami-robotics-bd.vercel.app",
     "description": "Official website of Agami Robotics BD - Affordable robotics education for Bangladeshi students",
     "inLanguage": "en-US",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://agamiroboticsbd.com/search?q={search_term_string}",
+      "target": "https://agami-robotics-bd.vercel.app/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
